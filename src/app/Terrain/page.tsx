@@ -18,10 +18,10 @@ export default function terrain() {
           The first algorithm is the naive generation. It will add a random vertical displacement to the vertices, and through each iterations the displacement will be slighter and slighter.
           With certain thresold settings to the horizon, it can create the water surface of this terrain.
           Another option is to use the Perlin noise. We can manipulate the frequency and amplitude to create the height map of our terrain.
-          The Perlin noise algorithm is implemented in the script, and we have another option that uses blender's noise generation function to achive the same goal.
+          The Perlin noise algorithm is implemented in the script, and we have another option that uses blender&apos;s noise generation function to achive the same goal.
         </p>
         <p>
-          First let's discuss a little bit on the iterations. The idea is to generate a grid and apply random edition to it.
+          First let&apos;s discuss a little bit on the iterations. The idea is to generate a grid and apply random edition to it.
           However, if we just generate a random number to every vertex, the outcome would be shaky and chaotic.
           Instead, our approach would be overlapping different waves. Some with low frequency and large amplitude, some with high frequency and small amplitude.
           By doing this, we should be able to create a terrain-like object.
